@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myAppGame">
+	<head>
+		<title>Challenge Game</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Fondamento|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet"  href="CSS/style.css">
+	</head>
+	<body>
+		<div class="jumbotron container-fluid">
+		<div class="container"></div>
+		  <h1 >Rock, Paper or Scissors!  <strong> 1..2..3</strong> </h1>
+		  
+			<nav class="navbar navbar-default">
+			  <div class="container ">
+			  <h2>One, Two, Three...!!</h2>
+			  <div class="imgs">
+			  		<img  src="IMGS/Piera.png">
+			        <img  src="IMGS/papel.png">
+			        <img  src="IMGS/tijera.png">
+
+			  </div>
+			        
+			    <div class="navbar-header">
+			     
+			     	<ul class="nav ">
+	                  <li class="active"><a href="#/"><h3>Single Players</h3></a></li>
+	                  <li><a href="#/tournament"><h3>Tournament</h3></a></li>
+	                  <li><a href="#/records"><h3>Records</h3></a></li>
+	                </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+            
+   		<div ng-view></div>
+
+
+		
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular/ngStorage.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+		<script src="JS/app.js"></script>
+		<script src="JS/controllers.js"></script>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,44 @@
+
+img{
+	border-radius: 50%;
+	margin: 1.5em;
+
+}
+.jumbotron{
+	
+	background-color:	#00FF7F !important;
+}
+.player1{
+	width: 20%;
+}
+
+.form{
+	width: 100%;
+}
+body{
+	font-family: 'Gloria Hallelujah'!important;
+	font-size: 2em;
+}
+.nav li{
+	display: inline;
+	float: left;
+	padding: 1em;
+}
+.header-container{
+	background-color: #D8BFD8;
+	border-radius: 3px;
+	width: 100%;
+	margin: 0 auto;
+}
+.navbar{
+	background-color:#87CEFA !important;
+}
+h1{
+	margin-left: 380px!important;
+}
+strong{
+	font-size: 3em;
+}
+.glyphicon{
+	float: right;
+}
