@@ -8,23 +8,22 @@
 						    <input type="text" class="form-control input-lg" id="playerName1" ng-model="newGame.name1" placeholder="Your name" name="name" required>
 
 						    <label for="playerStrategy1"> <h4>Strategy:</h4>  </label>
-						    <input type="text" class="form-control input-lg" id="playerStrategy1" ng-model="newGame.strategy1" placeholder="R, P or S" name="name" required>
+						    <input type="text" class="form-control input-lg" id="playerStrategy1"  ng-model="newGame.strategy1" placeholder="R, P or S" name="name" required>
 					        
 					    </div>
 						<div class="form-group col-md-6">
 						  <h2>Player 2</h2>
 						    <label for="playerName2"> <h4>Name:</h4>  </label>
 						    <input type="text" class="form-control input-lg" id="playerName2" ng-model="newGame.name2" placeholder="Your name" name="name" required>
-
-						    <label for="playerStrategy2"> <h4>Strategy:</h4>  </label>
+						    <label for="playerStrategy2"><h4>Strategy:</h4></label>
 						    <input type="text" class="form-control input-lg" id="playerStrategy2" ng-model="newGame.strategy2" placeholder="R, P or S" name="name" required>
 					        
 						</div>
 					</div>
-				  <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#miVentana">Play</button>
+				  <button type= " submit" class="btn btn-lg btn-info" data-toggle="modal" data-target="#miVentana">Play</button>
 				</form>	 
 
-
+				  
 				<!-- ///////////////////MODAL WINDOW ///////////////////-->
 				<div class="modal fade " required tabindex="-1" role="dialog" id="miVentana" aria-lebeledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog">
