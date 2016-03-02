@@ -3,7 +3,7 @@
 	<ul class="list-group">
 	  <li class="list-group-item unstyled" ng-repeat="contienda in lists">
 	  	
-	  	<span><h3>The winner between </h3>{{contienda.name1}} and {{contienda.name2}} is:</span>
+	  	<span>The winner between <strong>{{contienda.name1}}</strong> and <strong>{{contienda.name2}}</strong> is:</span>
 		<a href="" ng-click="eraseGame($index)"><span class="glyphicon glyphicon-remove btn btn-danger btn-xs"></span></a>
 	  </li>  
 	</ul>

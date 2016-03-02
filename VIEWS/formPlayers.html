@@ -1,46 +1,46 @@
 		<div class="container"  ng-controller="GameController ">
 	
-				<form name="playersForm" ng-submit="addGame()" autocomplete="off">
-					<div class="formGroups row" >
-						<div class="form-group col-md-6">
-						  	<h2>Player 1</h2>
-						    <label for="playerName1"> <h4>Name:</h4>  </label>
-						    <input type="text" class="form-control input-lg" id="playerName1" ng-model="newGame.name1" placeholder="Your name" name="name" required>
+			<form name="playersForm" ng-submit="addGame()" autocomplete="off">
+				<div class="formGroups row" >
+					<div class="form-group col-md-6">
+					  	<h2>Player 1</h2>
+					    <label for="playerName1"> <h4>Name:</h4>  </label>
+					    <input type="text" class="form-control input-lg" id="playerName1" ng-model="newGame.name1" placeholder="Your name" name="name" required>
 
-						    <label for="playerStrategy1"> <h4>Strategy:</h4>  </label>
-						    <input type="text" class="form-control input-lg" id="playerStrategy1"  ng-model="newGame.strategy1" placeholder="R, P or S" name="name" required>
-					        
-					    </div>
-						<div class="form-group col-md-6">
-						  <h2>Player 2</h2>
-						    <label for="playerName2"> <h4>Name:</h4>  </label>
-						    <input type="text" class="form-control input-lg" id="playerName2" ng-model="newGame.name2" placeholder="Your name" name="name" required>
-						    <label for="playerStrategy2"><h4>Strategy:</h4></label>
-						    <input type="text" class="form-control input-lg" id="playerStrategy2" ng-model="newGame.strategy2" placeholder="R, P or S" name="name" required>
-					        
-						</div>
-					</div>
-				  <button type= " submit" class="btn btn-lg btn-info" data-toggle="modal" data-target="#miVentana">Play</button>
-				</form>	 
-
-				  
-				<!-- ///////////////////MODAL WINDOW ///////////////////-->
-				<div class="modal fade " required tabindex="-1" role="dialog" id="miVentana" aria-lebeledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h2 class="modal-title">WINNER IS:</h2>
-				      </div>
-				      <div class="modal-body">
-				        <h2>{{contienda.name1}}&hellip;</h2>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>				
-				      </div>
+					    <label for="playerStrategy1"> <h4>Strategy:</h4>  </label>
+					    <input type="text" class="form-control input-lg" id="playerStrategy1"  ng-model="newGame.strategy1" placeholder="write R, P or S" name="name" required>
+				        
 				    </div>
-				  </div>
+					<div class="form-group col-md-6">
+					  <h2>Player 2</h2>
+					    <label for="playerName2"> <h4>Name:</h4>  </label>
+					    <input type="text" class="form-control input-lg" id="playerName2" ng-model="newGame.name2" placeholder="Your name" name="name" required>
+					    <label for="playerStrategy2"><h4>Strategy:</h4></label>
+					    <input type="text" class="form-control input-lg" id="playerStrategy2" ng-model="newGame.strategy2" placeholder="write R, P or S" name="name" required>
+				        
+					</div>
 				</div>
+			  <button type= " submit" class="btn btn-lg btn-info" data-toggle="modal" data-target="#miVentana">Play</button>
+			</form>	 
+
+			  
+			<!-- ///////////////////MODAL WINDOW ///////////////////-->
+			<div class="modal fade " required tabindex="-1" role="dialog" id="miVentana" aria-lebeledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h2 class="modal-title">WINNER IS:</h2>
+			      </div>
+			      <div class="modal-body">
+			        <h2>{{contienda.name1}} IT DOES'N WORK</h2>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>				
+			      </div>
+			    </div>
+			  </div>
+			</div>
 		</div>
 				
 

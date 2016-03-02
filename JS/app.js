@@ -1,4 +1,4 @@
-angular.module('myAppGame', ['ngStorage', 'ngRoute', 'myAppGame.controllers'] )
+angular.module('myAppGame', ['ngStorage','ngRoute', 'myAppGame.controllers'] )
 
 
 .config(['$routeProvider', function($routeProvider) {
@@ -22,5 +22,7 @@ angular.module('myAppGame', ['ngStorage', 'ngRoute', 'myAppGame.controllers'] )
 	.otherwise({
 	  	redirectTo: '/'
 	});
+
+	
 }]);
 
