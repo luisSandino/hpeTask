@@ -8,21 +8,13 @@ myCtrl.controller('GameController',['$scope', '$localStorage','$document', funct
       lists: [] 
       
     });
-    
+
 	$scope.lists = $localStorage.lists;
 //Agrego los nuevos juegos al Array lists
 	$scope.addGame= function() {
 		$scope.lists.push($scope.newGame);
 		$scope.newGame= {};
-	};  
-
-//var plyrName1= document.querySelector('playerName1');
-//var plyrName1= angular.element(document.querySelector('#playerName1'));
-//var plyrStrtgy1= angular.element(document.querySelector('#playerStrategy1'));
-//var plyrName2= angular.element(document.querySelector('#playerName2'));
-//var plyrStrtgy2=  angular.element(document.querySelector('#playerStrategy2'));
-
-
+	};   
 
 
 
